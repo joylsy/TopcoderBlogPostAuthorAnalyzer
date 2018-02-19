@@ -1,0 +1,6 @@
+# Node dependencies
+node_modules
+
+#dev.json
+config/development.json
+things to do.txt
