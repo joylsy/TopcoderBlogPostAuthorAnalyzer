@@ -1,4 +1,9 @@
 'use strict';
+//process.env.VCAP_APPLICATION
+//const cfenv = require('cfenv');
+//const appEnv = cfenv.getAppEnv();
+
+//const callbackURL = process.env.CF_APP_URL || (appEnv.isLocal ? 'http://localhost:3000' : appEnv.url);
 
 if(process.env.NODE_ENV === 'production') {
 	module.exports = {
